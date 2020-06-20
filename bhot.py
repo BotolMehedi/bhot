@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 try:
-    import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass,mechanize,requests,bhot
+    import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass,mechanize,requests,bhottool
     from multiprocessing.pool import ThreadPool
     from requests.exceptions import ConnectionError
     from mechanize import Browser
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system("pip2 install bhot")
+    os.system("pip2 install bhottool")
     time.sleep(1)
     os.system('python2 bhot.py')
 reload(sys)
@@ -49,8 +49,8 @@ logo="""
 --------------------------------------------------
                                 """
 
-cusr = "botolbaba"
-cpwd = "botolbaba"
+cusr = "thandabotol"
+cpwd = "gorombotol"
 def u():
     os.system("clear")
     print(logo)
@@ -67,14 +67,14 @@ def u():
 def p():
     os.system("clear")
     print(logo)
-    print(" TOOL USERNAME : botolbaba (correct)")
+    print(" TOOL USERNAME : thandabotol (correct)")
     pwd=raw_input(" TOOL PASSWORD : ")
     if pwd == cpwd:
         z()
     else:
         os.system("clear")
         print(logo)
-        print(" TOOL USERNAME : botolbaba (correct)")
+        print(" TOOL USERNAME : thandabotol (correct)")
         print(" TOOL PASSWORD : "+pwd+" (wrong)")
         time.sleep(1)
         os.system('xdg-open https://www.facebook.com/groups/231747098048450')
@@ -83,8 +83,8 @@ def p():
 def z():
     os.system("clear")  
     print(logo)
-    print(" TOOL USERNAME : botolbaba (correct)")
-    print(" TOOL PASSWORD : botolbaba (correct)")
+    print(" TOOL USERNAME : thandabotol (correct)")
+    print(" TOOL PASSWORD : gorombotol (correct)")
     print(" \033[1;92mLogin Successfull\033[0m")
     jalan("\033[1;93mPlease Wait 2 Minutes, All Packages Are Chacking.....")
   
