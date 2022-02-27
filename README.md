@@ -1,3 +1,5 @@
+<h1 align="center">❌NOT WORKING NOW❌</h1>
+
 <h1 align="center">BHOT v1.0</h1>
 <p align="center">
       A new facebook account cracker tool for termux users
